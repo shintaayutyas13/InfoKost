@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/main.css')?>">
 </head>
 <body>
-    <form style =" background-image: url('assets/img/img.jpg');">      
+    <body style =" background-image: url('assets/img/img.jpg')"></body>     
     </style>
     <div>
         <h2 class="heading">Formulir Pendaftaran Kostan</h2>
