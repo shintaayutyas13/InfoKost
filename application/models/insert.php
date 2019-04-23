@@ -16,7 +16,6 @@ class insert extends CI_Model {
 }
 
 public function Daftar(){
-		 require_once("config.php");
     
     if(isset($_POST['submit'])){
     	$jk_input = $_POST['jk_input'];
@@ -33,13 +32,15 @@ public function Daftar(){
 		$kb_input = $_POST['kb_input'];
 		$dk_input = $_POST['dk_input'];
 
-    	$get = $conn -> query("INSERT INTO `datakost`(jk_input, name_input, loc_input, fk_input, Luas_input, mnd_input, fp_input, al_input , dpk_input, kbs_input, kl_input, kb_input, dk_input) VALUES ('$jk_input','$name_input','$loc_input','$fk_input','$Luas_input','$mnd_input','$fp_input','$al_input' ,'$dpk_input','$kbs_input','$kl_input','$kb_input','$dk_input')");
-    	if($get){
-    		echo "selamat bergabungg";   		
-    	}
-    	else{
-    		echo "maaf kostanmu belum terdaftar";
-    	}
+		$this->db->insert('datakost',$data);
+
+    	// $get = $conn -> query("INSERT INTO `datakost`(jk_input, name_input, loc_input, fk_input, Luas_input, mnd_input, fp_input, al_input , dpk_input, kbs_input, kl_input, kb_input, dk_input) VALUES ('$jk_input','$name_input','$loc_input','$fk_input','$Luas_input','$mnd_input','$fp_input','$al_input' ,'$dpk_input','$kbs_input','$kl_input','$kb_input','$dk_input')");
+    	// if($get){
+    	// 	echo "selamat bergabungg";   		
+    	// }
+    	// else{
+    	// 	echo "maaf kostanmu belum terdaftar";
+    	// }
 	}
 }
 ?>
