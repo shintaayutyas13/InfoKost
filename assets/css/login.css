@@ -1,0 +1,140 @@
+html,body {
+  height:100%;
+  width:100%;
+}
+body , body {
+  display:flex;
+  box-sizing: border-box;
+}
+nav{
+  padding: 10px;
+  height : 50px;
+  width : 1240px;
+  top: 0;
+  position: absolute;
+}
+li{
+  float: left;
+  padding: 24px 24px 10px 10px;
+  margin-left: 5%;
+}
+li a{
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #FFA500;
+}
+li a:hover{
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+.pic{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 9%;
+}
+.pic1{
+  width: 48%;
+  height: 100%;
+  position: absolute;
+  position: fixed;
+  margin-left: 50%; 
+}
+h1{
+  text-align: left;
+}
+p{
+  text-align: left;
+  color: #FFA500;
+}
+.lg {
+  margin-top : 130px;
+  margin-left: 8%;
+  background-color: #FFFF;
+  text-align: center;
+  font-family: arial;
+  border: none solid #FFFF;
+  border-radius: 5px;
+  height: 250px;
+  width: 400px;
+  padding: 20px;  
+}
+input[type=text], input[type=password] {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: arial;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #ddd;
+  outline: none;
+}
+input[type=text]:focus, input[type=password]:focus{
+  border-bottom: 3px solid #FFA500;;
+}
+button {
+  background-color: #FFA500;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type=sumbit]:focus{
+  background-color: #FFA500;
+}
+.aclk{
+  color:  #C0C0C0;
+  text-decoration: none;
+}
+.aclk:hover{
+  color:#FFA500;
+}
+.rad{
+  font-weight: 400;
+  text-align: left;
+  margin: 15px;
+  color: #FFA500;
+}
+select{
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+  margin: 5px;
+  color: #C0C0C0;
+  background-color: #FFFF;
+  padding:12px 5px;
+}
+.selq{
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background:#FFFF;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  border-bottom: 1px solid white;
+  margin: 6px;
+  color: #000000;
+  padding: 12px 5px;  
+}
